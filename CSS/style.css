@@ -1,0 +1,280 @@
+/*border*/
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+}
+/*box*/
+.box {
+    width: 100px;
+    border: 15px solid orange;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box p {
+    padding: 20px;
+}
+
+/*form*/
+.form {
+    padding: 100px 150px;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+input[type=password] {
+    background-color: blue;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=button] input[type=submit] input[type=reset] {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*icon font*/
+.icon {
+    color: rgb(8, 63, 45);
+    font-size: 50px;
+}
+
+/*image*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*link*/
+.navigasi {
+    color: blue;
+}
+
+.navigasi:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.navigasi:active {
+    color: green;
+}
+
+/*margin*/
+
+.kotak1 p {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+.kotak2 p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+/*padding*/
+
+.kotakpadding p {
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+}
+
+/*tabel*/
+
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 70px;
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+/*text formatting*/
+#judul {
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: maroon;
+}
+
+.warna {
+    color: pink;
+}
+
+.ukuran {
+    font-size: 50px;
+}
+
+.letak {
+    text-align: center;
+}
+
+.jenis {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*text editor*/
+.edit{
+
+        font-family: 'Rubik Bubbles', cursive;
+        color: aqua;
+        font-size: 100px;
+}
+
+/*ul li menu*/
+.menu {
+    background-color: grey;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: blue;
+}
+
+/*width&height*/
+.wh{
+    height: 400px;
+    width: 70%;
+    background-color: aquamarine;
+}
